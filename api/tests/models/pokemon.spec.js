@@ -15,8 +15,20 @@ describe('Pokemon model', () => {
           .catch(() => done());
       });
       it('should work when its a valid name', () => {
-        Pokemon.create({ name: 'Pikachu' });
+        Pokemon.create({Nombre: 'Pikachu' })
+        .then(() => expect(Pokemon.Nombre).to.equal('Pikachu'))
+          
       });
+      describe('validate an error ',()=>{
+        it('should throw an error if img is null', function(done) {
+         Pokemon.create({
+            Nombre: 'hola',
+          })
+          .then(() => done('No deberia haberse creado'))
+          .catch(() => done());
+      })
+
+  })
     });
   });
 });

@@ -7,6 +7,9 @@ module.exports = (sequelize) => {
     Nombre: {
       type: DataTypes.STRING,
       allowNull: false,
+      set(valor){
+        this.setDataValue(`Nombre`, valor.toLowerCase())
+      }
     },Id:{
       type: DataTypes.UUID,
       defaultValue: Sequelize.UUIDV4,
