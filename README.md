@@ -14,7 +14,7 @@
 - Usar y practicar testing.
 
 
-##Elementos del proyecto:
+## Elementos del proyecto:
 
 
 - [ ]  Barra de navegacion: botones para poder cambiar el ordenamiento de los pokemones( por nombre o por fuerza ), botones para filtrar por pokemon creado o existente.
