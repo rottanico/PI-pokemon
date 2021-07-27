@@ -35,6 +35,8 @@
 
 # Opcion para desarrolladores: 
 
+## Comenzando
+
 __IMPORTANTE:__ Es necesario contar minimamente con la última versión estable de Node y NPM. Asegurarse de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto. Al
 
 
