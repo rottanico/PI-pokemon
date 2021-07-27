@@ -14,8 +14,26 @@
 - Usar y practicar testing.
 
 
+##Elementos del proyecto:
 
 
+- [ ]  Barra de navegacion: botones para poder cambiar el ordenamiento de los pokemones( por nombre o por fuerza ), botones para filtrar por pokemon creado o existente.
+- [ ]  Home: renderiza cartas de pokemones que incluyen una foto, nombre, tipo de pokemon ( agua, fuego, fantasma, etc) y un boton para acceder a mas detalle del pokemon.
+- [ ]  Detalle del Pokemon seleccionado: incluye todos los datos del pokemon ( fuerza, altura, peso, imagen, defenza, rapidez, tipo, etc )
+- [ ]  Formulario de creacion: Crea un pokemon con sus respectivos datos ( detaller del pokemon ) y lo almacena en la base de datos
+
+## Tecnologías utilizadas:
+
+- [ ] React 
+- [ ] Redux
+- [ ] Express
+- [ ] Sequelize - Postgres
+
+
+
+
+
+##Opcion para desarrolladores: 
 
 __IMPORTANTE:__ Es necesario contar minimamente con la última versión estable de Node y NPM. Asegurarse de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto. Al
 
@@ -47,13 +65,6 @@ La idea general es crear una aplicación en la cual se puedan ver los distintos 
   - Crear nuevos pokemons
 
 
-
-#### Tecnologías utilizadas:
-
-- [ ] React 
-- [ ] Redux
-- [ ] Express
-- [ ] Sequelize - Postgres
 
 #### Frontend
 
